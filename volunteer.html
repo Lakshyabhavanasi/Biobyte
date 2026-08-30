@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Volunteer | BioByte</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <a href="index.html" class="brand" aria-label="BioByte home"><span class="brand-mark">BB</span><span>BioByte</span></a>
+        <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a class="active" href="volunteer.html">Volunteer</a>
+          <a href="events.html">Events</a>
+          <a href="chatbot.html">Chat Bot</a>
+          <a href="partners.html">Partners</a>
+          <a href="addons.html">Add-ons</a>
+        </nav>
+        <a class="nav-cta" href="volunteer.html">Get Involved</a>
+      </div>
+    </header>
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <span class="kicker">Volunteering opportunities</span>
+          <h1>Support our mission in ways that fit your time and skills.</h1>
+          <p>Track hours, join the team, and explore leadership opportunities as part of our growing community.</p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container card-grid">
+          <article class="feature-card"><div class="feature-icon">📝</div><h3>Log Volunteer Hours</h3><p>Document time spent serving on-site, online, or during community projects.</p></article>
+          <article class="feature-card"><div class="feature-icon">👥</div><h3>Register as a Member</h3><p>Join our membership and receive updates, opportunities, and ways to take action.</p></article>
+          <article class="feature-card"><div class="feature-icon">🚀</div><h3>Leadership Tryouts</h3><p>Apply for club leadership roles and help guide our next wave of programs and events.</p></article>
+        </div>
+      </section>
+      <section class="section section-alt">
+        <div class="container form-grid">
+          <div class="form-card">
+            <h2>Log volunteer hours</h2>
+            <p class="form-prompt">Track completed service and future commitments.</p>
+            <form>
+              <label>Volunteer Name<input type="text" placeholder="Your full name" /></label>
+              <label>Program / Event<input type="text" placeholder="Community garden cleanup" /></label>
+              <label>Hours Completed<input type="number" min="1" max="50" placeholder="3" /></label>
+              <label>Date<input type="date" /></label>
+              <button type="submit" class="button-primary">Submit Hours</button>
+            </form>
+          </div>
+          <div class="checklist-card">
+            <h2>Volunteer opportunities</h2>
+            <ul>
+              <li>Community outreach and event support</li>
+              <li>Mentorship and tutoring programs</li>
+              <li>Fundraising and donor follow-ups</li>
+              <li>Social media and storytelling support</li>
+              <li>Event planning and logistics coordination</li>
+              <li>Workshop facilitation and youth engagement</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container form-grid">
+          <div class="form-card">
+            <h2>Become a club member</h2>
+            <form>
+              <label>Full Name<input type="text" placeholder="Alex Morgan" /></label>
+              <label>Email Address<input type="email" placeholder="alex@email.com" /></label>
+              <label>Why do you want to join?<textarea placeholder="Tell us about your interests, passions, and skills..."></textarea></label>
+              <button type="submit" class="button-primary">Register Now</button>
+            </form>
+          </div>
+          <div class="form-card">
+            <h2>Leadership tryout</h2>
+            <p class="form-prompt">Apply for roles such as outreach lead, event coordinator, or mentorship captain.</p>
+            <form>
+              <label>Preferred role<select><option>Event Coordinator</option><option>Outreach Lead</option><option>Mentorship Captain</option><option>Finance & Sponsorship</option><option>Operations Lead</option></select></label>
+              <label>Relevant experience<textarea placeholder="Share your leadership background and service experience..."></textarea></label>
+              <button type="submit" class="button-primary">Apply for Leadership</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div><a href="index.html" class="brand" aria-label="BioByte home"><span class="brand-mark">BB</span><span>BioByte</span></a><p>Building communities through empathy, action, and leadership.</p></div>
+        <div><h4>Explore</h4><ul><li><a href="about.html">About Us</a></li><li><a href="volunteer.html">Volunteer</a></li><li><a href="events.html">Events</a></li></ul></div>
+        <div><h4>Resources</h4><ul><li><a href="partners.html">Partners</a></li><li><a href="chatbot.html">Chat Bot</a></li><li><a href="addons.html">Add-ons</a></li></ul></div>
+        <div><h4>Connect</h4><ul><li>Email: hello@biobyte.org</li><li>Phone: (555) 642-9191</li><li>Location: Downtown Community Hub</li></ul></div>
+      </div>
+      <div class="container footer-bottom"><span>© <span id="year"></span> BioByte</span><span>Made for service, growth, and community.</span></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
